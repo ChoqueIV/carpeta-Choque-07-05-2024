@@ -44,6 +44,27 @@ main{
     justify-content: center;
 }
 
+.img_cara_1{
+    background-image: url(./img/cara_1.jpg);
+}
+.img_cara_2{
+    background-image: url(./img/cara_2.jpg);
+}
+.img_cara_3{
+    background-image: url(./img/cara_3.jpg);
+}
+.img_cara_4{
+    background-image: url(./img/cara_4.jpg);
+}
+
+.img_cara_5{
+    background-image: url(./img/cara_5.jpg);
+}
+
+.img_cara_6{
+    background-image: url(./img/cara_6.jpg);
+}
+
 .img_1{
     background-image: url(./img/plato_carta.jpg);
 }
@@ -104,15 +125,18 @@ footer{
     display: flex;
     position: absolute;
     bottom: 1;
-    
+    a{
+        display: flex;
+        width: 33.33%;
+        border: none;
+        align-items: center;
+        justify-content: center;
+    }
+
+    a:hover{
+        border-top:solid 2px rgb(25, 0, 255); 
+        cursor: zoom-out;
+    }
 }
 
-footer input{
-    width: 33.33%;
-    border: none;
-}
 
-input:hover{
-    border-top:solid 2px rgb(25, 0, 255); 
-    cursor: zoom-out;
-}
